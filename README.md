@@ -1,9 +1,9 @@
-# PSM(Palworld Server manager) script (lastest v.1.4.0)
+# PSM(Palworld Server manager) script (lastest v.1.5.0)
 
 여기저기에서 참조했는데, 링크를 못찾아서 출처는 나중에 쓰는거로 하고...
 간단히말해서 터미널로 켜고 끌수 있는 스크립트입니다.
 
-1.5엔 메모리 관리기능 추가예정!!
+메모리 관리기능 추가!!
 
 
 > 사용환경
@@ -36,6 +36,7 @@ cd /home/user/Server/PalWorld/serverfile/palworld/Pal && zip -r /home/user/Serve
 - stop : 팰월드 docker container를 정지합니다.
 - restart : 팰월드 서버를 정지후 백업하고, 다시 시작합니다.
 - backup : 팰월드 서버 세이브파일을 백업합니다.
+- check : 서버가 실행되는 하드웨어의 메모리를 체크하고 80% 초과시 재시작합니다.
 
 
 > 주의사항
@@ -48,3 +49,4 @@ cd /home/user/Server/PalWorld/serverfile/palworld/Pal && zip -r /home/user/Serve
 - V 1.0 최초릴리즈.
 - V 1.2.1 백업기능 추가.
 - v.1.4.0 재시작 기능 추가.
+- v.1.5.0 메모리 체크 기능 추가.
